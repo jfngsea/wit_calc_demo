@@ -13,11 +13,6 @@ java {
     }
 }
 
-apply plugin: 'java'
-bootJar {
-    enabled = false
-}
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor

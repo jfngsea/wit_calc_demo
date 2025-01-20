@@ -2,3 +2,4 @@ rootProject.name = 'wit_demo'
 
 include 'Common'
 include 'Rest'
+include 'Calculator'
