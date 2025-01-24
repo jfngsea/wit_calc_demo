@@ -7,7 +7,7 @@ import java.util.List;
 public final class KafkaTopics {
 
     public static final String CALC_REQ = "calc_request";
-    public static final String CALC_RES = "cal_response";
+    public static final String CALC_RES = "calc_response";
 
     public static List<String> getTopicsStringList() {
         var list = new ArrayList<String>();
